@@ -31,7 +31,7 @@ body {
 .grid #question {
     font-family: "monospace";
     font-size: 30px;
-    color: #01BBFF;
+    color: #430457;
 }
  
 .buttons {
@@ -39,7 +39,7 @@ body {
 }
  
 #btn0, #btn1, #btn2, #btn3 {
-    background-color: #01BBFF;
+    background-color: #430457;
     width: 250px;
     font-size: 20px;
     color: #fff;

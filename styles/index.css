@@ -1,6 +1,8 @@
 body {
+    width: 100%;
     margin: 0px;
-    background-color: blueviolet;
+    background: blueviolet;
+    background-image: linear-gradient(to top left, #9b59b6, #1a25bc);
 }
 .header {
     padding: 60px;
@@ -20,7 +22,7 @@ body {
 
 .carousel__container {
     white-space: nowrap;
-    margin: 70px 0px;
+    margin: 30px 0px;
     padding-bottom: 10px;
 
 }
@@ -77,7 +79,7 @@ body {
 
 }
 .carousel-item__details img{
-    height: 15px;
+    height: 40px;
 }
 .carousel-item__details p{
     margin: 0px;
@@ -91,6 +93,7 @@ body {
 }
 
 .title h2{
-    height: 15px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
 }
