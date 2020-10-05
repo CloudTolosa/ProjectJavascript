@@ -13,10 +13,11 @@ body {
   }
 
 .carousel {
-    width: 100%;
-    padding-left: 30px;
+    width: 80%;
+    padding-left: 60px;
     padding-right: 30px;
     padding-top: 10px;
+    align-content: center;
     position: relative;
 }
 
