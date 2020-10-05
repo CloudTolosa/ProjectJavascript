@@ -2,49 +2,43 @@
 // bigger memory?
 
 var library = {
-    pokemon: [
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980025/memory/Pokemon/Bulbasaur.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980083/memory/Pokemon/Charmander.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980101/memory/Pokemon/Squirtle.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980116/memory/Pokemon/Pikachu.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980129/memory/Pokemon/Mewtwo.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980142/memory/Pokemon/Mew.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980154/memory/Pokemon/Articuno.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980164/memory/Pokemon/Zapdos.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980175/memory/Pokemon/Moltres.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980186/memory/Pokemon/Eevee.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980025/memory/Pokemon/Bulbasaur.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980083/memory/Pokemon/Charmander.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980101/memory/Pokemon/Squirtle.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980116/memory/Pokemon/Pikachu.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980129/memory/Pokemon/Mewtwo.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980142/memory/Pokemon/Mew.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980154/memory/Pokemon/Articuno.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980164/memory/Pokemon/Zapdos.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980175/memory/Pokemon/Moltres.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980186/memory/Pokemon/Eevee.png'
+    occupations: [
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/police_elhqyj.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/waiter_ocyxol.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/secretary_u2nggy.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/Surgeon_r18taj.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/teacher_tcefal.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866712/memory/occupations/nurse_ortn5a.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866712/memory/occupations/pilot_lbudnp.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866712/memory/occupations/doctor_i3coad.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866711/memory/occupations/flight_jb7xhx.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866711/memory/occupations/chef_jqmll6.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866711/memory/occupations/detective_bla7rc.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866711/memory/occupations/astronaut_ai9ope.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/construction_ah37xb.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/bellhop_vqjner.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/businessman_fxuuig.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/architect_zzmlta.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/boxer_cmzbhc.png',
     ],
     starwars: [
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980981/memory/starwars/anakin%20skywalker.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981009/memory/starwars/luke%20skywalker.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981022/memory/starwars/Obi%20wann.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981054/memory/starwars/Han%20solo.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981074/memory/starwars/chewbacca.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981095/memory/starwars/yoda.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981117/memory/starwars/dark%20sidious.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981141/memory/starwars/dark%20vador.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981165/memory/starwars/padme.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981190/memory/starwars/leia.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980981/memory/starwars/anakin%20skywalker.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981009/memory/starwars/luke%20skywalker.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981022/memory/starwars/Obi%20wann.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981054/memory/starwars/Han%20solo.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981074/memory/starwars/chewbacca.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981095/memory/starwars/yoda.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981117/memory/starwars/dark%20sidious.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981141/memory/starwars/dark%20vador.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981165/memory/starwars/padme.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981190/memory/starwars/leia.jpg'
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/police_elhqyj.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/waiter_ocyxol.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/secretary_u2nggy.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/Surgeon_r18taj.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866713/memory/occupations/teacher_tcefal.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866712/memory/occupations/nurse_ortn5a.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866712/memory/occupations/pilot_lbudnp.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866712/memory/occupations/doctor_i3coad.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866711/memory/occupations/flight_jb7xhx.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866711/memory/occupations/chef_jqmll6.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866711/memory/occupations/detective_bla7rc.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866711/memory/occupations/astronaut_ai9ope.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/construction_ah37xb.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/bellhop_vqjner.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/businessman_fxuuig.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/architect_zzmlta.png',
+        'https://res.cloudinary.com/drqr9l8n4/image/upload/v1601866710/memory/occupations/boxer_cmzbhc.png',
     ],
     lotr: [
       'https://res.cloudinary.com/beumsk/image/upload/v1547981408/memory/lotr/gandalf.jpg',
@@ -166,8 +160,8 @@ var library = {
   function activateTheme(theme) {
     // insert theme in images array
     switch (theme) {
-      case "pokemon":
-        for (let i=0; i<20; i++) {images.push(library.pokemon[i]);}
+      case "occupations":
+        for (let i=0; i<20; i++) {images.push(library.occupations[i]);}
         break;
       case "starwars":
         for (let i=0; i<20; i++) {images.push(library.starwars[i]);}

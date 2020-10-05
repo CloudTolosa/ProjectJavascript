@@ -93,8 +93,9 @@ body {
     color: white;
 }
 
-.title h2{
-    height: 30px;
+.title {
+    color: white;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
 }
