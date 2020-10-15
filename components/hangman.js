@@ -1,18 +1,18 @@
-var programming_languages = [
-	"python",
-	"javascript",
-	"mongodb",
-	"json",
-	"java",
-	"html",
-	"css",
-	"c",
-	"csharp",
-	"golang",
-	"kotlin",
-	"php",
-	"sql",
-	"ruby"
+var animal_language = [
+	"cow",
+	"bird",
+	"dog",
+	"butterfly",
+	"monkey",
+	"mouse",
+	"horse",
+	"rabbit",
+	"cat",
+	"snake",
+	"insect",
+	"pig",
+	"lion",
+	"elephant"
 ]
 
 let answer = '';
@@ -22,7 +22,7 @@ let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-  answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
+  answer = animal_language[Math.floor(Math.random() * animal_language.length)];
 }
 
 function generateButtons() {
