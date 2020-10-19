@@ -1,0 +1,72 @@
+body {
+  background: blueviolet;
+  background-image: linear-gradient(to top left, #b117ee, #1a25bc);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+span {
+  color: #fff;
+}
+
+div#content {
+  margin: 20px;
+}
+
+div#conf {
+  padding: 30px;
+}
+
+table {
+  border: 2px solid blue;
+  box-shadow: 1px 1px 8px #1a25bc, -1px -1px 8px #1a25bc, 1px -1px 8px #1a25bc,
+    -1px 1px 8px #1a25bc;
+  -webkit-box-shadow: 1px 1px 8px #1a25bc, -1px -1px 8px #1a25bc,
+    1px -1px 8px #1a25bc, -1px 1px 8px #1a25bc;
+  border-collapse: collapse;
+}
+
+td.pieza {
+  background: url(../assets/lion.png);
+  transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+div.posic {
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #1a25bc;
+  width: 0px;
+  position: absolute;
+  top: 70px;
+  overflow: auto;
+  min-height: 0px;
+  max-height: 0px;
+  display: none
+}
+
+div#titulo {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 8px #1a25bc, -1px -1px 8px #1a25bc, 1px -1px 8px #1a25bc,
+    -1px 1px 8px #1a25bc;
+}
+
+.button1 {background-color: #f708d7;} /* Green */
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

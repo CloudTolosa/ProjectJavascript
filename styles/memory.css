@@ -12,7 +12,7 @@
     min-height: 100vh;
     background: blueviolet;
     background-image: linear-gradient(to top left, #9b59b6, #1a25bc);
-    font-family: Arial;
+    font-family: sans-serif;
     position: relative;
     text-align: center;
   }

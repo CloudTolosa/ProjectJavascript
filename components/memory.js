@@ -69,71 +69,73 @@ var library = {
       'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602765349/animals/CAT_i3zdh6.png',
       'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602765349/animals/COW_gmcoqi.png',
     ],
-    disney: [
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982044/memory/disney/mickey.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982088/memory/disney/mowgli.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982610/memory/disney/tarzan.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982620/memory/disney/simba.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982628/memory/disney/aladin.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982636/memory/disney/blanche%20neige.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982644/memory/disney/alice.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982653/memory/disney/peter%20pan.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982663/memory/disney/pinocchio.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982738/memory/disney/raiponce.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982044/memory/disney/mickey.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982088/memory/disney/mowgli.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982610/memory/disney/tarzan.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982620/memory/disney/simba.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982628/memory/disney/aladin.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982636/memory/disney/blanche%20neige.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982644/memory/disney/alice.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982653/memory/disney/peter%20pan.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982663/memory/disney/pinocchio.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982738/memory/disney/raiponce.jpg'
+    places: [
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602798815/places/MUSEUM_qi9lpq.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602798815/places/FARM_ipjgee.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794506/places/CINEMA_vszgkg.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794506/places/BAKERY_ftzlwy.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794506/places/BANK_fzxxox.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/HOSPITAL_fzidcq.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/DENTIST_qwi7bb.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/HOTEL_zdcvxe.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/SCHOOL_n5zqqp.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/FACTORY_j4pqqu.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602798815/places/MUSEUM_qi9lpq.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602798815/places/FARM_ipjgee.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794506/places/CINEMA_vszgkg.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794506/places/BAKERY_ftzlwy.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794506/places/BANK_fzxxox.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/HOSPITAL_fzidcq.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/DENTIST_qwi7bb.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/HOTEL_zdcvxe.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/SCHOOL_n5zqqp.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602794505/places/FACTORY_j4pqqu.png',
     ],
-    pixar: [
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982971/memory/pixar/up.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982987/memory/pixar/buzz.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983000/memory/pixar/woody.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983016/memory/pixar/Remy.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983032/memory/pixar/Mike.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983077/memory/pixar/Nemo.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983114/memory/pixar/wall-e.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983169/memory/pixar/Mr-Incredible.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983381/memory/pixar/sully.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983403/memory/pixar/flash%20mcqueen.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982971/memory/pixar/up.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982987/memory/pixar/buzz.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983000/memory/pixar/woody.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983016/memory/pixar/Remy.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983032/memory/pixar/Mike.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983077/memory/pixar/Nemo.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983114/memory/pixar/wall-e.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983169/memory/pixar/Mr-Incredible.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983381/memory/pixar/sully.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983403/memory/pixar/flash%20mcqueen.jpg'
+    bedroom: [
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802229/bedroom/BED_ihjiwa.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802227/bedroom/PILLOW_pprrhy.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/BEDSIDE_w7lesu.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/ALARMCLOCK_la3ys4.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/LAMP_y9s6aw.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/CHAIR_hx1u2k.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/BLANKET_vjkjgg.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/LIGHT_f6pjma.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802224/bedroom/CURTAINS_njz2ek.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802224/bedroom/TOYS_fqrlvl.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802229/bedroom/BED_ihjiwa.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802227/bedroom/PILLOW_pprrhy.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/BEDSIDE_w7lesu.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/ALARMCLOCK_la3ys4.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/LAMP_y9s6aw.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/CHAIR_hx1u2k.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/BLANKET_vjkjgg.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802226/bedroom/LIGHT_f6pjma.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802224/bedroom/CURTAINS_njz2ek.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1602802224/bedroom/TOYS_fqrlvl.png',
+
     ],
-    harrypotter: [
-      'https://res.cloudinary.com/beumsk/image/upload/v1547998926/memory/harrypotter/harry.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547998958/memory/harrypotter/ron.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547998992/memory/harrypotter/hermione.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999106/memory/harrypotter/dumbledore.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999032/memory/harrypotter/malfoy.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999143/memory/harrypotter/voldemort.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999401/memory/harrypotter/rogue.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999196/memory/harrypotter/hagrid.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999271/memory/harrypotter/sirius.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999577/memory/harrypotter/neville.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547998926/memory/harrypotter/harry.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547998958/memory/harrypotter/ron.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547998992/memory/harrypotter/hermione.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999106/memory/harrypotter/dumbledore.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999032/memory/harrypotter/malfoy.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999143/memory/harrypotter/voldemort.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999401/memory/harrypotter/rogue.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999196/memory/harrypotter/hagrid.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999271/memory/harrypotter/sirius.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547999577/memory/harrypotter/neville.jpg'
+    routines: [
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/GETUP_ah6mq9.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/TAKESHOWER_v1rpcu.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/GETDRESSED_lfowfp.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/BRUSHTEETH_tnjtad.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/EATBREAKFAST_lhalyz.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/PLAY_wkzr39.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/HOMEWORK_xazvq9.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042203/routines/BRUSHHAIR_y4h8dy.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042203/routines/GOBED_zxmbw6.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/GOSCHOOL_mltauy.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/GETUP_ah6mq9.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/TAKESHOWER_v1rpcu.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/GETDRESSED_lfowfp.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/BRUSHTEETH_tnjtad.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/EATBREAKFAST_lhalyz.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/PLAY_wkzr39.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/HOMEWORK_xazvq9.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042203/routines/BRUSHHAIR_y4h8dy.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042203/routines/GOBED_zxmbw6.png',
+      'https://res.cloudinary.com/drqr9l8n4/image/upload/v1603042204/routines/GOSCHOOL_mltauy.png',
+
     ]
   }
   
@@ -176,14 +178,14 @@ var library = {
       case "animals":
         for (let i=0; i<20; i++) {images.push(library.animals[i]);}
         break;
-      case "disney":
-        for (let i=0; i<20; i++) {images.push(library.disney[i]);}
+      case "places":
+        for (let i=0; i<20; i++) {images.push(library.places[i]);}
         break;
-      case "pixar":
-        for (let i=0; i<20; i++) {images.push(library.pixar[i]);}
+      case "bedroom":
+        for (let i=0; i<20; i++) {images.push(library.bedroom[i]);}
         break;
-      case "harrypotter":
-        for (let i=0; i<20; i++) {images.push(library.harrypotter[i]);}
+      case "routines":
+        for (let i=0; i<20; i++) {images.push(library.routines[i]);}
         break;
     }
     // insert images in memory game
