@@ -77,11 +77,11 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS", "HTML"], "HTML"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django", "NodeJS"], "Django"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-    new Question("Webdevtrick.com is about..", ["Web Design", "Graphic Design", "SEO & Development", "All"], "All")
+    new Question("The cow is _________", ["green-red", "blue-yellow","pink-purple", "black-white"], "black-white"),
+    new Question("The elephant is not _________", ["Big", "Herbivorous", "Dangerous", "Clever"], "Dangerous"),
+    new Question("The Lios is not _________", ["Furry", "Domestic","Dangerous", "Agile"], "Domestic"),
+    new Question("Which animal is not domestic?", ["Tiger", "Dog", "Bird", "Sheep"], "Tiger"),
+    new Question("Which animal is furry?", ["Cat", "Dog", "Mouse", "All"], "All")
 ];
  
 // create quiz

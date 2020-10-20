@@ -77,11 +77,11 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS", "HTML"], "HTML"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django", "NodeJS"], "Django"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-    new Question("Webdevtrick.com is about..", ["Web Design", "Graphic Design", "SEO & Development", "All"], "All")
+    new Question("Who travels into space?", ["Fireman", "Teacher","Painter", "Astronaut"], "Astronaut"),
+    new Question("Who makes bread, cakes, pies, cookies?", ["Doctor", "Baker", "Teacher", "Nurse"], "Baker"),
+    new Question("Who helps other people get well when they are sick?", ["Doctor", "Baker", "Teacher", "Painter"], "Doctor"),
+    new Question("Who puts out fires and rescues people?", ["Fireman", "Teacher","Painter", "Astronaut"], "Fireman"),
+    new Question("Who helps other people learn things?", ["Doctor", "Baker", "Teacher", "Painter"], "Teacher")
 ];
  
 // create quiz
