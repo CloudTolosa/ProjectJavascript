@@ -217,7 +217,7 @@
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
-        <div class="modal-content">
+        <div class="modal-content" style="border-radius: 10px;">
             <span class="close">&times;</span>
             <div class="wrapperD">
                 <div class="words">
@@ -225,41 +225,6 @@
                     <input type="text" id="search" placeholder="search...">
                     <button onclick="search()">Go</button>
                     <ul id="word_list" style="overflow-y: scroll;max-height: 100px;">
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>apple</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-                        <li>banana</li>
-                        <li>strawberry</li>
-
                     </ul>
 
                 </div>
@@ -317,9 +282,44 @@
             }
         }
     </script>
+    
 </body>
 <footer class="footer">
     <p>Author: Laura Tolosa and Ruben Parra</p>
 </footer>
 
 </html>
+<script type = "text/javascript">
+    var dictionary = [
+        {
+            word:"apple",
+            def:"a round fruit seed at its center",
+            rel: ["mango","pear","guava"]
+        },
+        {
+            word:"pear",
+            def:"a round fruit seed at its center",
+            rel: ["mango","pear","guava"]
+        },
+        {
+            word:"blackberry",
+            def:"a round fruit seed at its center",
+            rel: ["mango","pear","guava"]
+        },
+        {
+            word:"strawberry",
+            def:"a round fruit seed at its center",
+            rel: ["mango","pear","guava"]
+        },
+    ];
+
+    init = function(){
+        for (var i = 0; i < dictionary.length; i++) {
+            document.getElementById('word_list').innerHTML += "<li onclick='show(" + i + ")'>" + dictionary[i].word + "</li>";
+        }
+        
+    }
+
+    init();
+        
+</script>
