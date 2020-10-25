@@ -1,79 +1,478 @@
 var dictionary = [
-    {
-        word:"apple",
-        def:"a round fruit seed at its center",
-        rel: ["mango","pear","guava"],
-        sound : "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603081818/audio/la-factoria-que-me-maten_vaj16o.mp3",
-    },
-    {
-        word:"pear",
-        def:"a round fruit seed at its center",
-        rel: ["mango","pear","guava"],
-        sound : "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603081818/audio/la-factoria-que-me-maten_vaj16o.mp3",
-    },
-    {
-        word:"blackberry",
-        def:"a round fruit seed at its center",
-        rel: ["mango","pear","guava"],
-        sound : "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3"
-    },
-    {
-        word:"strawberry",
-        def:"a round fruit seed at its center",
-        rel: ["mango","pear","guava"],
-        sound : "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3"
-    },
+  {
+    word: "alarmclock",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603081818/audio/la-factoria-que-me-maten_vaj16o.mp3",
+  },
+  {
+    word: "apple",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603081818/audio/la-factoria-que-me-maten_vaj16o.mp3",
+  },
+  {
+    word: "architect",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "athlete",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "baker",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "bakery",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "bakery",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "banana",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "bank",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "bed",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "bedside",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "bird",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "blackberry",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "blanket",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "businessman",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "butterfly",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "cat",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "chair",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "chef",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "cinema",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "cookie",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "corn",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "cow",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "curtains",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "dentist",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "doctor",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "duck",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "elephant",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "engineer",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "factory",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "farm",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "farmer",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "fireman",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "horse",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "hospital",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "hotel",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "housewife",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "lamp",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "lawyer",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "light",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "mouse",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "museum",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "nurse",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "onion",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "orange",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "pig",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "pillow",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "police",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "rice",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "school",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "scientific",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "secretary",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "snake",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  }, {
+    word: "strawberry",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "student",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "surgeon",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "teacher",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "toys",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "waiter",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "watermelon",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+  {
+    word: "words",
+    def: "a round fruit seed at its center",
+
+    sound:
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+  },
+
+
+
+
 ];
 
-init = function(){
-    for (var i = 0; i < dictionary.length; i++) {
-        document.getElementById('word_list').innerHTML += "<li onclick='show(" + i + ")'>" + dictionary[i].word + "</li>";
-    }
-    
-}
+init = function () {
+  for (var i = 0; i < dictionary.length; i++) {
+    document.getElementById("word_list").innerHTML +=
+      "<li onclick='show(" + i + ")'>" + dictionary[i].word + "</li>";
+  }
+};
 
 init();
 
 show = function (i) {
-    document.getElementById('word_text').innerHTML = dictionary[i].word;
-    document.getElementById('definition').innerHTML = dictionary[i].def;
-    document.getElementById('sound').src = dictionary[i].sound;
-    //$("#sound").aMalcom256
-    ttr("src",dictionary[i.sound]);
-    var list = "";
-
-    for (var j = 0 ; j < dictionary[i].rel.length; j++){
-        list += "<li>" + dictionary[i].rel[j]; + "<li>"
-        document.getElementById('related').innerHTML = list;
-    }
-}
-
+  document.getElementById("word_text").innerHTML = dictionary[i].word;
+  document.getElementById("definition").innerHTML = dictionary[i].def;
+  document.getElementById("sound").src = dictionary[i].sound;
+  //$("#sound").aMalcom256
+  
+  var list = "";
+};
 
 //show first word in the dictionary when page load
 show(0);
 
-search = function() {
-    query = document.getElementById('search').value;
+search = function () {
+  query = document.getElementById("search").value;
 
-    if(query == ""){
-        return;
+  if (query == "") {
+    return;
+  }
+
+  found = -1;
+
+  for (var i = 0; i < dictionary.length; i++) {
+    if (query == dictionary[i].word) {
+      found = i;
+      break;
+    } else {
+      document.getElementById("word_text").innerHTML = "Word not found";
+      document.getElementById("definition").innerHTML =
+        "the word you entered is not found in our dictionary";
     }
+  }
 
-    found = -1;
-
-    for (var i = 0; i < dictionary.length; i++) {
-        if (query == dictionary[i].word){
-            found = i;
-            break;
-        }else {
-            document.getElementById('word_text').innerHTML = "Word not found";
-            document.getElementById('definition').innerHTML = "the word you entered is not found in our dictionary";
-            document.getElementById('related').innerHTML = "no related words";
-        }
-        
-    }
-
-    if (found >= 0 ){
-        show(found);
-    }
-}
+  if (found >= 0) {
+    show(found);
+  }
+};
