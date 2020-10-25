@@ -105,14 +105,14 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="carousel-item__img" src="./assets/littlewomenold.png" alt="">
+                <img class="carousel-item__img" src="./assets/gato.png" alt="">
                 <div class="carousel-item__details">
                     <div>
-                        <a href="./screen/poorOldLady.html">
+                        <a href="./screen/KiddieCat.html">
                             <img src="./assets/play-icon.png" alt="play">
                         </a>
                     </div>
-                    <p class="carousel-item__details--titile">The Poor Old Lady</p>
+                    <p class="carousel-item__details--titile">Kiddie Cat</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -229,13 +229,16 @@
 
                 </div>
                 <div class="word">
-                    <h3 id="word_text"> word</h3>
-                    <p id="definition">The definition of the word goes here</p>
+                    <h3 id="word_text"></h3>
+                    <p id="definition"></p>
 
                     <hr>
 
-                    <h3>Related words:</h3>
-                    <li id="related">relatedWord</li>
+                    <h3>Pronunciation words:</h3>
+                    <audio  id="sound" src="sound"
+                        controls="" autoplay="" style="display: block;margin-left: auto;margin-right: auto;">
+                        rrrrrrrrrrrrrr
+                    </audio>
                 </div>
 
             </div>
@@ -282,44 +285,10 @@
             }
         }
     </script>
-    
+    <script src="./components/dictionary.js"></script>
 </body>
 <footer class="footer">
     <p>Author: Laura Tolosa and Ruben Parra</p>
 </footer>
 
 </html>
-<script type = "text/javascript">
-    var dictionary = [
-        {
-            word:"apple",
-            def:"a round fruit seed at its center",
-            rel: ["mango","pear","guava"]
-        },
-        {
-            word:"pear",
-            def:"a round fruit seed at its center",
-            rel: ["mango","pear","guava"]
-        },
-        {
-            word:"blackberry",
-            def:"a round fruit seed at its center",
-            rel: ["mango","pear","guava"]
-        },
-        {
-            word:"strawberry",
-            def:"a round fruit seed at its center",
-            rel: ["mango","pear","guava"]
-        },
-    ];
-
-    init = function(){
-        for (var i = 0; i < dictionary.length; i++) {
-            document.getElementById('word_list').innerHTML += "<li onclick='show(" + i + ")'>" + dictionary[i].word + "</li>";
-        }
-        
-    }
-
-    init();
-        
-</script>
