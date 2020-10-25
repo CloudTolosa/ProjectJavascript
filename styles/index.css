@@ -108,7 +108,7 @@ body {
 }
 .container {
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   right: 20px;
 }
 .redes a,
@@ -219,7 +219,7 @@ footer {
 }
 
 .wrapperD {
-  width: 90%;
+  width: 100%;
 }
 
 .wrapperD:after {
@@ -229,7 +229,7 @@ footer {
 }
 
 .words {
-  width: 29%;
+  width: 30%;
   background: #bcbcbc;
   padding-top: 10px;
   float: left;
@@ -238,11 +238,11 @@ footer {
 .word {
   width: 60%;
   float: left;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .word_list {
-  max-height: 250px;
+  max-height: 200px;
   overflow-y: scroll;
 }
 
