@@ -1,45 +1,45 @@
 var dictionary = [
   {
     word: "alarmclock",
-    def: "a round fruit seed at its center",
+    def: "a clock with a bell or buzzer that can be set to sound at a particular time, as to awaken someone.",
 
     sound:
-      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603081818/audio/la-factoria-que-me-maten_vaj16o.mp3",
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603809858/dictionary/alarmclock_ys8qan.ogg",
   },
   {
     word: "apple",
-    def: "a round fruit seed at its center",
+    def: "the usually round, red or yellow, edible fruit of a small tree.",
 
     sound:
-      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603081818/audio/la-factoria-que-me-maten_vaj16o.mp3",
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603809858/dictionary/apple_ej9ubp.ogg",
   },
   {
     word: "architect",
     def: "a round fruit seed at its center",
 
     sound:
-      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603809858/dictionary/architect_s33ntw.ogg",
   },
   {
     word: "athlete",
     def: "a round fruit seed at its center",
 
     sound:
-      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603809858/dictionary/athlete_kux0ls.ogg",
   },
   {
     word: "baker",
     def: "a round fruit seed at its center",
 
     sound:
-      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603809858/dictionary/baker_vsvook.ogg",
   },
   {
     word: "bakery",
     def: "a round fruit seed at its center",
 
     sound:
-      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603168776/audio/Rinrin_dy4th0.mp3",
+      "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603809858/dictionary/bakery_mfhf9v.ogg",
   },
   {
     word: "bakery",
