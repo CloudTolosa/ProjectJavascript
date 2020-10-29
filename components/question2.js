@@ -21,8 +21,9 @@ Quiz.prototype.isEnded = function() {
 }
  
  
-function Question(text, choices, answer) {
+function Question(text, src, choices, answer) {
     this.text = text;
+    this.src = src;
     this.choices = choices;
     this.answer = answer;
 }
@@ -40,6 +41,9 @@ function populate() {
         // show question
         var element = document.getElementById("question");
         element.innerHTML = quiz.getQuestionIndex().text;
+
+        var element = document.getElementById("sound");
+        element.src = quiz.getQuestionIndex().src;
  
         // show options
         var choices = quiz.getQuestionIndex().choices;
@@ -77,11 +81,11 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("Who travels into space?", ["Fireman", "Teacher","Painter", "Astronaut"], "Astronaut"),
-    new Question("Who makes bread, cakes, pies, cookies?", ["Doctor", "Baker", "Teacher", "Nurse"], "Baker"),
-    new Question("Who helps other people get well when they are sick?", ["Doctor", "Baker", "Teacher", "Painter"], "Doctor"),
-    new Question("Who puts out fires and rescues people?", ["Fireman", "Teacher","Painter", "Astronaut"], "Fireman"),
-    new Question("Who helps other people learn things?", ["Doctor", "Baker", "Teacher", "Painter"], "Teacher")
+    new Question("Listen to the question and answer","https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939580/questions/whotravelintospace_vwjtiv.mp3", ["Fireman", "Teacher","Painter", "Astronaut"], "Astronaut"),
+    new Question("Listen to the question and answer","https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939580/questions/whobaker_iagr7u.mp3", ["Doctor", "Baker", "Teacher", "Nurse"], "Baker"),
+    new Question("Listen to the question and answer","https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939581/questions/whodoctor_pcnp4e.mp3", ["Doctor", "Baker", "Teacher", "Painter"], "Doctor"),
+    new Question("Listen to the question and answer","https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939581/questions/whofireman_u5rgak.mp3", ["Fireman", "Teacher","Painter", "Astronaut"], "Fireman"),
+    new Question("Listen to the question and answer","https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939581/questions/whoteacher_rs0rqv.mp3", ["Doctor", "Baker", "Teacher", "Painter"], "Teacher")
 ];
  
 // create quiz

@@ -2,6 +2,7 @@ function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
     this.questionIndex = 0;
+    this.questionAudio = 1;
 }
  
 Quiz.prototype.getQuestionIndex = function() {
@@ -21,8 +22,9 @@ Quiz.prototype.isEnded = function() {
 }
  
  
-function Question(text, choices, answer) {
+function Question(text, src, choices, answer) {
     this.text = text;
+    this.src = src;
     this.choices = choices;
     this.answer = answer;
 }
@@ -40,6 +42,9 @@ function populate() {
         // show question
         var element = document.getElementById("question");
         element.innerHTML = quiz.getQuestionIndex().text;
+
+        var element = document.getElementById("sound");
+        element.src = quiz.getQuestionIndex().src;
  
         // show options
         var choices = quiz.getQuestionIndex().choices;
@@ -77,11 +82,11 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("The cow is _________", ["green-red", "blue-yellow","pink-purple", "black-white"], "black-white"),
-    new Question("The elephant is not _________", ["Big", "Herbivorous", "Dangerous", "Clever"], "Dangerous"),
-    new Question("The Lios is not _________", ["Furry", "Domestic","Dangerous", "Agile"], "Domestic"),
-    new Question("Which animal is not domestic?", ["Tiger", "Dog", "Bird", "Sheep"], "Tiger"),
-    new Question("Which animal is furry?", ["Cat", "Dog", "Mouse", "All"], "All")
+    new Question("Listen to the audio and complete the sentence","https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939580/questions/thecowis_wytwid.mp3", ["green-red", "blue-yellow","pink-purple", "black-white"], "black-white"),
+    new Question("Listen to the audio and complete the sentence","https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939580/questions/theelephant_bqefsy.mp3", ["Big", "Herbivorous", "Dangerous", "Clever"], "Dangerous"),
+    new Question("Listen to the audio and complete the sentence", "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939580/questions/thelionis_jh5p38.mp3",["Furry", "Domestic","Dangerous", "Agile"], "Domestic"),
+    new Question("Listen to the question and answer", "https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939580/questions/animalisnotdomestic_voxan5.mp3",["Tiger", "Dog", "Bird", "Sheep"], "Tiger"),
+    new Question("Listen to the question and answer","https://res.cloudinary.com/drqr9l8n4/video/upload/v1603939581/questions/animalisfurry_cy3u19.mp3", ["Cat", "Dog", "Mouse", "All"], "All")
 ];
  
 // create quiz

@@ -470,6 +470,7 @@ search = function () {
       break;
     } else {
       document.getElementById("word_text").innerHTML = "Word not found";
+      document.getElementById("word_translate").innerHTML = "Word not found";
       document.getElementById("definition").innerHTML =
         "the word you entered is not found in our dictionary";
     }
